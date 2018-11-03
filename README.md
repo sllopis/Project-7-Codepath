@@ -1,6 +1,6 @@
 # Project-7-Codepath
 
-#1: Authenticated Stored Cross-Site Scripting (XSS)
+**#1: Authenticated Stored Cross-Site Scripting (XSS)**
 
 Recreating the Exploit
 
@@ -13,7 +13,7 @@ Recreating the Exploit
 
 
 
-#2: Authenticated Shortcode Tags XSS
+**#2: Authenticated Shortcode Tags XSS
 
 Like the last one, this vulnerability also requires the attacker to have an account with posting capabilities. It takes advantage of a shortfall in WordPress's KSES filtering (which filters out non-whitelisted HTML tags).
 
@@ -32,7 +32,7 @@ which WP processes to:
 
 
 
-#3: Authenticated Stored XSS in YouTube URL Embeds
+**#3: Authenticated Stored XSS in YouTube URL Embeds**
 
 Again, this vulnerability requires at least Contributor level privileges onto the site. Through this exploit, an attacker could take advantage of YouTube URL embeds to achieve a stored/persistent XSS attack that can affect any user who simply loads the compromised page.
 
