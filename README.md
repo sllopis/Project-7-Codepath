@@ -5,7 +5,9 @@
 Recreating the Exploit
 
 1 ) Gain access to an account with at least posting-level permissions via social engineering or another exploit. 
+
 2 ) Either create a new page/post or modify an existing one.
+
 3 ) Use the HTML editor (not the Visual editor) to insert code similar to the following and post:
 
 
@@ -18,8 +20,10 @@ Like the last one, this vulnerability also requires the attacker to have an acco
 
 Recreating the Exploit
 
-1 ) Gain access to an account with at least posting-level permissions via social engineering or another exploit. 
+1 ) Gain access to an account with at least posting-level permissions via social engineering or another exploit.
+
 2 ) Either create a new page/post or modify an existing one.
+
 3 ) Use the HTML editor (not the Visual editor) to insert code similar to the following and post:
 
 
@@ -38,7 +42,9 @@ Again, this vulnerability requires at least Contributor level privileges onto th
 Recreating the Exploit
 
 1 ) Gain access to an account with at least posting-level permissions via social engineering or another exploit. 
+
 2 ) Either create a new page/post or modify an existing one.
+
 3 ) Use the HTML editor (not the Visual editor) to insert code similar to the following and post. Here, we demonstrate the vulnerability through the use of an embed shortcode:
 
 `[embed src='https://www.youtube.com/embed/12345\x3csvg <Event-attribute-with-JS-code-here>\x3e'][/embed]`
