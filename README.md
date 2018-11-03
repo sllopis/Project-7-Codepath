@@ -13,7 +13,7 @@ Recreating the Exploit
 
 
 
-**#2: Authenticated Shortcode Tags XSS
+**#2: Authenticated Shortcode Tags XSS**
 
 Like the last one, this vulnerability also requires the attacker to have an account with posting capabilities. It takes advantage of a shortfall in WordPress's KSES filtering (which filters out non-whitelisted HTML tags).
 
